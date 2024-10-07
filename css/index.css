@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #014421;
+    max-width: 100%;
+}
+
+.header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-link {
+    white-space: nowrap;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fdc80b;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #016b2c;
+}
+
+.introduction {
+    background-image: url('https://plus.unsplash.com/premium_photo-1683288706157-9913483dffc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI5fHx8ZW58MHx8fHx8');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.introduction .btn-primary {
+    background-color: #fdc80b;
+    border: none;
+    padding: 12px 30px;
+}
+
+.introduction .btn-primary:hover {
+    background-color: #ffb800;
+    transform: scale(1.05);
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.rating span {
+    font-size: 1rem;
+}
+
+.navbar li a {
+    color: #ccc;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    background-color: #d3d3d3;
+    border: none;
+}
+
+.dropdown-item {
+    color: #021101;
+}
+
+.dropdown-item:hover {
+    background-color: #ffffff;
+}
+
+.dropdown-divider {
+    border-color: rgb(3, 87, 0);
+}
+
+.footer {
+    background-color: #1a1a1a;
+}
+
+.footer a {
+    color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+    .introduction h2 {
+        font-size: 1.8rem;
+    }
+
+    .introduction .btn-primary {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 480px) {}

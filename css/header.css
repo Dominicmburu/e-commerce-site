@@ -1,0 +1,38 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #014421;
+    max-width: 100%;
+}
+
+.header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-link {
+    white-space: nowrap;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fdc80b;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #016b2c;
+}
